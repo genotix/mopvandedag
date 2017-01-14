@@ -1,0 +1,49 @@
+{
+    "id": "nl.genotix.moppentap",
+    "name": {
+        "nl": "Mop van de dag",
+        "en": "Joke of the day"
+    },
+    "description":{
+	"en":"Random joke reader (dutch)",
+	"nl":"Random mop lezer"
+    },
+    "images":{
+	"large":"./assets/images/large.png",
+	"small":"./assets/images/small.png"
+    },
+    "category":[ "internet" ],
+    "dependencies":{ "request":"*" },
+    "version": "0.0.1",
+    "compatibility": "0.x || 1.x",
+    "author": {
+        "name": "Eric Oud Ammerveld",
+        "email": "eric@genotix.nl"
+    },
+    "contributors": {
+        "developer": [
+            {
+               "email": "eric@genotix.nl"
+            }
+        ],
+        "Logo designer": [
+            {
+               "name": "Borjandreu",
+               "site": "Freepik.com"
+            }
+        ]
+   },
+   "permissions": [
+       "homey:manager:speech-output"
+   ],
+    "flow":{
+        "actions":[
+            {
+                "id":"tell_joke",
+                "title":{
+                    "nl":"Mop van de dag",
+                    "en":"Joke of the day"
+                }
+            }]
+    }
+}

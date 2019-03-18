@@ -6,7 +6,7 @@ It features an action that can be used in a flow.
 The action connects to a server that randomizes jokes and provides you with a new joke each time it is called.
 
 ## Release information
-current version: 0.0.1
+current version: 0.0.2
 
 ## Actions
 
@@ -19,6 +19,7 @@ The install image comes from
 
 
 ## Changelog
-
+0.0.2 ----
+* No changes works fine with homey 2
 0.0.1 ----
 * Initial release
